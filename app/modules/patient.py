@@ -1,11 +1,10 @@
-from dataclasses import dataclass
-
-@dataclass
 class Patient:
     id: int
 
     # Datos básicos
+    name: str
     age: int
+    sex: str
 
     # Signos vitales
     oxygen_saturation: int
